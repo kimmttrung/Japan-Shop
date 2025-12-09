@@ -9,13 +9,13 @@ interface ContactItemData {
 const data: ContactItemData[] = [
     {
         title: "Visit Us",
-        subtitle: "New Orlean, USA",
+        subtitle: "Mỹ Đình, Hà Nội",
         icon: (
             <MapPin className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
         ),
     },
     {
-        title: "Call Us",
+        title: "Call me",
         subtitle: "+12 958 648 597",
         icon: (
             <Phone className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
@@ -23,14 +23,14 @@ const data: ContactItemData[] = [
     },
     {
         title: "Working Hours",
-        subtitle: "Mon - Sat: 10:00 AM - 7:00 PM",
+        subtitle: "Mon - Sat: 9:00 AM - 7:00 PM",
         icon: (
             <Clock className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
         ),
     },
     {
         title: "Email Us",
-        subtitle: "Shopcart@gmail.com",
+        subtitle: "trung@gmail.com",
         icon: (
             <Mail className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
         ),
